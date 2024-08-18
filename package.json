@@ -1,0 +1,23 @@
+{
+  "name": "event-scheduler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": "true",
+  "author": {
+    "name": "Sasikumar Chandrasekar",
+    "email": "sasimymails@gmail.com"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "date-fns": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "googleapis": "^140.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
